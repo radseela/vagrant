@@ -26,6 +26,6 @@ Vagrant.configure("2") do |config|
  config.vm.define "db01" do |db01|
    db01.vm.box = "ubuntu/bionic64"
    db01.vm.hostname = "db01"
-   db01.vm.network "private_network", ip: "192.168.33.23"
+   db01.vm.network "private_network", ip: "192.168.33.24"
  end
 end
